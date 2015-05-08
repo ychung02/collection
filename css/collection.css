@@ -1,0 +1,119 @@
+/* Rectangle 2: */
+border: 2px solid #FFFFFF;
+border-radius: 8px;
+
+/* ENTER: */
+font-family: AkkuratPro-Regular;
+font-size: 12px;
+color: #FFFFFF;
+letter-spacing: 1.26px;
+line-height: 14px;
+
+section:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+section{
+	width:100%;
+	background-color: grey;
+}
+body{
+	margin:0;
+}
+.work{
+	width:33.333333%;
+	padding-bottom: 33.333333%;
+	background-color: grey;
+	float:left;
+	background-size: cover;
+	background-position:center;
+	position: relative;
+}
+
+#overlay    {  background:rgba(0,0,0,.75);
+               opacity:0;
+               -webkit-transition: opacity .25s ease;
+				-moz-transition: opacity .25s ease;}
+.work .text {
+	font-family:Helvetica;
+	font-weight:20;
+	color:rgba(255,255,255,.85);
+	font-size:20px;
+	margin: 0;
+	text-align: center;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+
+
+
+#work_1{
+	background-image: url(../images/dark_1.png);
+	transition: all 0.7s ease-in-out;
+}
+#work_2{
+	background-image: url(../images/dark_2.jpg);
+	transition: all 0.7s ease-in-out;
+}
+#work_3{
+	background-image: url(../images/dark_3.jpg);
+	transition: all 0.7s ease-in-out;
+}
+#work_4{
+	background-image: url(../images/dark_4.jpg);
+	transition: all 0.7s ease-in-out;
+}
+#work_5{
+	background-image: url(../images/dark_5.jpg);
+	transition: all 0.7s ease-in-out;
+}
+#work_6{
+	background-image: url(../images/dark_6.jpg);
+	transition: all 0.7s ease-in-out;
+}
+#work_7{
+	background-image: url(../images/dark_7.jpg);
+	transition: all 0.7s ease-in-out;
+}
+#work_8{
+	background-image: url(../images/dark_8.jpg);
+	transition: all 0.7s ease-in-out;
+}
+#work_9{
+	background-image: url(../images/dark_9.jpg);
+	transition: all 0.7s ease-in-out;
+}
+
+#work_1:hover{
+	background-image: url(../images/work_1.jpg);
+}
+#work_2:hover{
+	background-image: url(../images/work_2.jpg);
+}
+#work_3:hover{
+	background-image: url(../images/work_3.jpg);
+}
+#work_4:hover{
+	background-image: url(../images/work_4.jpeg);
+}
+#work_5:hover{
+	background-image: url(../images/work_5.jpg);
+}
+#work_6:hover{
+	background-image: url(../images/work_6.jpg);
+}
+#work_7:hover{
+	background-image: url(../images/work_7.jpg);
+}
+#work_8:hover{
+	background-image: url(../images/work_8.jpg);
+}
+#work_9:hover{
+	background-image: url(../images/work_9.jpg);
+}
+
