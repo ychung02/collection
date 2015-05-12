@@ -39,7 +39,24 @@ body{
 	font-family:Helvetica;
 	font-weight:20;
 	color:rgba(255,255,255,.85);
-	font-size:20px;
+	font-size:30px;
+	opacity:0.2;
+	margin: 0;
+	text-align: center;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	transition: all 0.4s ease-in-out;
+}
+
+.work .text:hover{
+	font-family:Helvetica;
+	font-weight:20;
+	color:rgba(255,255,255,.85);
+	font-size:30px;
+	opacity:1;
 	margin: 0;
 	text-align: center;
 	width: 100%;
@@ -48,8 +65,6 @@ body{
 	top: 50%;
 	transform: translateY(-50%);
 }
-
-
 
 
 #work_1{
